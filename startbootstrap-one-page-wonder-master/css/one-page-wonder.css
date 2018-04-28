@@ -104,7 +104,7 @@ header.masthead .bg-circle-4 {
 header.masthead2 {
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 25px);
+  padding-top: calc(3rem + 25px);
   padding-bottom: 7rem;
   background: linear-gradient(0deg, #0066ff 0%, #fff 100%);
   background-repeat: no-repeat;
