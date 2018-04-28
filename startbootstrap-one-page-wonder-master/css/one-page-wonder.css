@@ -112,6 +112,10 @@ header.masthead2 {
   background-size: cover;
 }
 
+#masthead-heading mb-0{
+  font: black; 
+}
+
 header.masthead2 .masthead-content {
   z-index: 1;
   position: relative;
@@ -214,6 +218,4 @@ header.masthead2 .bg-circle-4 {
 .wrapper {
   display: flex;
 }
-/*#address
-{
-}*/
+
