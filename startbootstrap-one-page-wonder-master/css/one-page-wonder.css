@@ -101,6 +101,78 @@ header.masthead .bg-circle-4 {
   }
 }
 
+header.masthead2 {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: linear-gradient(0deg, #0066ff 0%, #fff 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead2 .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead2 .masthead-content .masthead-heading {
+  font-size: 4rem;
+}
+
+header.masthead2 .masthead-content .masthead-subheading {
+  font-size: 2rem;
+}
+
+header.masthead2 .bg-circle {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+  background: linear-gradient(0deg, #fff 0%, #0066ff 100%);
+}
+
+header.masthead2 .bg-circle-1 {
+  height: 90rem;
+  width: 90rem;
+  bottom: -55rem;
+  left: -55rem;
+}
+
+header.masthead2 .bg-circle-2 {
+  height: 50rem;
+  width: 50rem;
+  top: -25rem;
+  right: -25rem;
+}
+
+header.masthead2.bg-circle-3 {
+  height: 20rem;
+  width: 20rem;
+  bottom: -10rem;
+  right: 5%;
+}
+
+header.masthead2 .bg-circle-4 {
+  height: 30rem;
+  width: 30rem;
+  top: -5rem;
+  right: 35%;
+}
+
+@media (min-width: 992px) {
+  header.masthead2 {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+  header.masthead2 .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead2 .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
+}
 .bg-primary {
   background-color: #ee0979 !important;
 }
