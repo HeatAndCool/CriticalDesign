@@ -33,7 +33,7 @@ header.masthead {
   overflow: hidden;
   padding-top:calc(7rem + 72px);
   padding-bottom:7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background: linear-gradient(0deg, #ff0000 0%, #ee0808 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -173,12 +173,12 @@ header.masthead2 .bg-circle-4 {
   }
 }
 .bg-primary {
-  background-color: #ee0979 !important;
+  background-color: #ee0808 !important;
 }
 
 .btn-primary {
-  background-color: #ee0979;
-  border-color: #ee0979;
+  background-color: #ee0808;
+  border-color: #ee0808;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -191,8 +191,8 @@ header.masthead2 .bg-circle-4 {
 }
 
 .btn-secondary {
-  background-color: #ff6a00;
-  border-color: #ff6a00;
+  background-color: #ff0000;
+  border-color: #ff0000;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
